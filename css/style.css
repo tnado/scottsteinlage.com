@@ -1,0 +1,275 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, Sans-Serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* test comment change*/
+/* Global */
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.button_social{
+        display: inline-block;
+        width: 80%;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+        background-color: #ffffff;
+        border-radius: 3px;
+        border-style: solid;
+        border-color:#0080c5;
+        outline: none;
+        transition: all 0.5s;
+        
+}
+
+.button_social:hover{
+        display: inline-block;
+        width: 80%;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #0075b2;
+        border-radius: 3px;
+        border-style: solid;
+        border-color:#0080c5;
+        outline: none;
+        transition: all 0.5s;
+}
+
+.lightbox{
+    padding: 20px 10px 20px 10px; 
+    background: #ffffff90;
+    color:#000000;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.social{
+    padding: 15px;
+    background: #e0e0e07a;
+    color:#000000;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+/* Header */
+
+header{
+    background: #000000;
+    color: #ffffff;
+    padding-top: 0px;
+    min-height: 70px;
+    border-bottom: #405D3A 3px solid;
+    /* look up how to float this when scrolling */
+}
+
+header #branding{
+    float: left;
+}
+
+header li{
+    display: inline;
+    padding: 0 10px 0 10px;
+}
+header nav{
+    float:right;
+    margin-top: 15px;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font:16px
+}
+
+header .highlight, header .current a{
+    color: #405D3A;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+/* Newsletter */
+
+#newsletter{
+    min-height: 400px;
+    background:url('../img/MacBookPro.JPG') rgb(0, 0, 0, .85) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-blend-mode: multiply;
+    color: whitesmoke;
+}
+
+.pic img{
+    float: right;
+    margin: 20px 0 0 0;
+    width: 50%;
+    padding: 0 0 0 0;
+}
+
+#newsletter .intro{
+    float: left;
+    text-align: center;
+    width: 30%;
+    margin-top: 200px;
+    padding: 10px;
+}
+
+#newsletter p{
+    line-height: .3;
+}
+
+#newsletter form button{
+    margin-top: 10px;
+    border:0;
+    color: #ffffff;
+    background-color: #405D3A;
+    padding: 10px 20px 10px 20px;
+    
+}
+
+#newsletter form button:hover{
+    margin-top: 10px;
+    border: 0;
+    color: #405D3A;
+    background-color: #ffffff;
+    padding: 10px 20px 10px 20px;
+}
+
+#newsletter form p{
+    line-height: 0;
+}
+
+#newsletter form input{
+    padding: 10px 20px 10px 20px;
+    min-width: 100;
+}
+
+/* About Me */
+
+.about_pic img{
+    float: left;
+    margin: 20px 0 0 0;
+    width: 60%;
+    padding: 0 0 0 0;
+}
+
+#about{
+    min-height: 700px;
+    background:url('../img/CF\ FHL\ 2017.jpg') rgb(0, 0, 0, .87) no-repeat;
+    background-size: cover;
+    background-position: 100% 50%;
+    background-blend-mode: multiply;
+}
+
+article#about-left-col{
+    float: right;
+    width: 40%;
+    margin-top: 50px;
+}
+
+/* Socials */
+
+#socials{
+    margin-top: -260px;
+    min-height: 350px;
+    background-color: #ffffff;
+}
+
+#socials h1{
+   text-align: center;
+   }
+
+/* facebook social */
+
+#facebook_social{
+    text-align: center;
+    width: 26%;
+    float: left;
+}
+
+#facebook_social i{
+    font-size: 30px;
+}
+
+#facebook_social h3{
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+/* Instagram Social */
+
+#instagram_social{
+    text-align: center;
+    width: 26%;
+    float: right;
+}
+
+#instagram_social i{
+    font-size: 30px;
+}
+
+#instagram_social h3{
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+/* Linkedin Social */
+
+/* #linkedin_social{
+    text-align: center;
+    width: 26%;
+    float: center;
+} */
+/* does not work falls under left aligned temporary mvp fix below */
+
+#linkedin_social{
+    text-align: center;
+    width: 26%;
+    float: left;
+    margin-left: 75px;
+}
+
+#linkedin_social i{
+    font-size: 30px;
+}
+
+#linkedin_social h3{
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+/* Footer */
+
+#footer{
+    color: #cccccc;
+    background-color: #000000;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+#footer a{
+    color: #cccccc;
+    /* text decoration - underlines, etc.. */
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#footer a:hover{
+    color: #405D3A;
+    /* text decoration - underlines, etc.. */
+    text-decoration: none;
+    font-size: 12px;
+}
