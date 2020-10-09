@@ -60,6 +60,24 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;    
 }
+
+.side_bar{
+    left: 20px;
+    position: fixed;
+    top: 25%;
+    list-style: none;
+
+}
+
+.vertical_line{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: #a8b2d1;
+}
+
 /* Header */
 
 header{
@@ -99,6 +117,41 @@ header .highlight, header .current a{
 header a:hover{
     color: #cccccc;
     font-weight: bold;
+}
+
+/* Social Sidebar */
+
+.side_social_bar_list a{
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    color: inherit;
+    position: relative;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.side_social_bar_list a:hover{
+    display: inline-block;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+    transform: translateX(3px) rotate(360deg) scale(2, 2);
+    color: inherit;
+    position: relative;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 10px;
+    color: #405D3A;
+}
+
+.side_social_bar_list{
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    -webkit-box-align: center;
+    color: #a8b2d1;
+    font-size: 20px;
 }
 
 /* Newsletter */
@@ -273,3 +326,6 @@ article#about-left-col{
     text-decoration: none;
     font-size: 12px;
 }
+
+/* mobile */
+
